@@ -1,7 +1,7 @@
 # Requires pymongo 3.6.0+
 from pymongo import MongoClient
 
-client = MongoClient("mongodb://host:port/")
+client = MongoClient("mongodb://localhost:27017/")
 database = client["mongo_db_conn1"]
 collection = database["city"]
 
